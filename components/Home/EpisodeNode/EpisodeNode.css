@@ -1,0 +1,126 @@
+.episode-node-outer-container {
+    padding: 1% 4%;
+}
+
+.episode-info-container {
+    width: 52%;
+}
+
+.episode-logo-container {
+    padding-left: 2%;
+}
+
+.episode-info-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #EFEFEF;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px black;
+}
+
+.episode-title {
+    color: #ffff;
+    text-shadow: 2px 2px black;
+}
+
+.episode-description {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.apple-podcast-button {
+    height: 78px;
+    border-radius: 12px;
+    border: none;
+    padding: 0%;
+    margin: 0% 6%;
+    background: none;
+    width: auto;
+    cursor: pointer;
+}
+  
+.apple-podcast-button img {
+    height: 100%;
+    width: 300px;
+}
+
+.spotify-button {
+    height: 78px;
+    border-radius: 12px;
+    border: none;
+    padding: 0%;
+    margin: 0% 6%;
+    background: none;
+    width: auto;
+    cursor: pointer;
+}
+
+.spotify-button img {
+    height: 100%;
+    width: 206px;
+}
+
+.spotify-text {
+    color: white;
+}
+
+.spotify-icon {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 4px;
+}
+
+.listen-button-container {
+    display: flex;
+}
+
+.audio-container {
+    color: white;
+    background-color: #171717;
+}
+
+@media screen and (min-width: 880px) {
+    .episode-node-container {
+        display: flex;
+    }
+
+    .episode-info-container {
+        width: 52%;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .listen-button-container {
+        display: inline-block;
+    }
+
+    .apple-podcast-button {
+        margin: 0%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .episode-info-container {
+        width: 100%;
+    }
+
+    .listen-button-container {
+        display: flex;
+    }
+
+    .apple-podcast-button {
+        margin: 0% 3%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .listen-button-container {
+        display: inline-block;
+    }
+    
+    .spotify-text {
+        font-size: 26px;
+    }
+}
