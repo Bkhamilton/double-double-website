@@ -1,19 +1,20 @@
-import Image from "next/image";
+import React from "react";
 import DoubleDoubleTitle from "../Helpers/DoubleDoubleTitle/DoubleDoubleTitle";
 import Socials from "../Helpers/Socials/Socials";
+import EpisodeNode from '@/components/Home/EpisodeNode/EpisodeNode';
+import AboutUs from '@/components/Home/AboutUs/AboutUs';
+import { testEpisode } from '@/data/episodes'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <DoubleDoubleTitle />
       <Socials />
-      <h1>Home</h1>
-      <Image
-        src="/images/nextjs.png"
-        alt="Next.js Logo"
-        width={500}
-        height={500}
-      />
-    </div>
+      <AboutUs />
+      <div className="px-12 py-2">
+        <h1 className="text-3xl font-bold">Latest Episode</h1>
+      </div>
+      <EpisodeNode episode={testEpisode} />
+    </>
   );
 }
