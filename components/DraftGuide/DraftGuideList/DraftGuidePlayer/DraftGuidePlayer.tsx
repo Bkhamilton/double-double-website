@@ -32,7 +32,7 @@ export default function DraftGuidePlayer({ player }: { player: Player }) {
     return parseInt(statArr[0]);
   }
 
-  const gamesPlayed = getGamesPlayed(player.stats.content);
+  //const gamesPlayed = getGamesPlayed(player.stats.content);
 
   const [isOpen, setIsOpen] = useState(false);
   const [bottomDisplay, setBottomDisplay] = useState(false);
