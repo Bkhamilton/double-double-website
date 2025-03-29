@@ -1,10 +1,11 @@
 import React from 'react';
+import DraftGuide from '@/components/DraftGuide/DraftGuide';
 
 const DraftGuidePage = () => {
     return (
-        <div>
-            <h1>Draft Guide</h1>
-        </div>
+        <>
+            <DraftGuide/>
+        </>
     );
 };
 
