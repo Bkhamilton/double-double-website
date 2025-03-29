@@ -27,10 +27,12 @@ interface Player {
 
 export default function DraftGuidePlayer({ player }: { player: Player }) {
 
+  /*
   function getGamesPlayed(stats: string) {
     const statArr = stats.split(' ');
     return parseInt(statArr[0]);
   }
+  */
 
   //const gamesPlayed = getGamesPlayed(player.stats.content);
 
