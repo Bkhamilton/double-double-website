@@ -18,14 +18,12 @@ interface Player {
 }
 
 export default function DraftGuidePlayer({ player }: { player: Player }) {
-
     function getGamesPlayed(stats: string) {
         const statArr = stats.split(' ');
         return parseInt(statArr[0]);
     }
 
     const gamesPlayed = getGamesPlayed(player.stats);
-
     const [isOpen, setIsOpen] = useState(false);
     const [bottomDisplay, setBottomDisplay] = useState(false);
 
@@ -44,67 +42,120 @@ export default function DraftGuidePlayer({ player }: { player: Player }) {
             }, 300);
         }
         setIsOpen(prevState => !prevState);
-    }
-
-    const handleClick = () => {
-        openButton();
     };
 
+    const nameSizeClass = player.name.length < 18 
+        ? "text-[20px]" 
+        : player.name.length < 22 
+            ? "text-[18px] md:text-[20px]" 
+            : "text-[14px] md:text-[16px]";
+
     return (
-        <div className='draft-guide-player-container'>
-            <button onClick={handleClick} className={`draft-guide-player-button ${isOpen ? 'button-open' : 'button-close'}`}>
-                <div className='draft-guide-player-main-info'>
-                    <div className='draft-guide-player-rank'>
-                        <span className='rank-text'>{player.rank}</span>
+        <div className="flex w-full md:px-[5%] justify-center sm:px-0">
+            <button 
+                onClick={openButton}
+                className={`font-roboto bg-[#6CC5FE] flex flex-col items-center transition-all duration-300 ${
+                    isOpen 
+                        ? "w-full md:w-[1000px] border-4 border-black" 
+                        : "w-full md:w-[530px] border-2 border-black"
+                }`}
+            >
+                {/* Main Player Info */}
+                <div className="flex items-center gap-[10px] py-[0.5%] w-full">
+                    {/* Rank */}
+                    <div className="px-[5px]">
+                        <span className="font-bold text-[24px] text-white">
+                            {player.rank}
+                        </span>
                     </div>
-                    <div className='draft-guide-player-name'>
-                        <span className={`${player.name.length < 18 ? "player-name" : (player.name.length < 22 ? "player-name-long" : "player-name-longer")}`}>{player.name}</span>
+                    
+                    {/* Name */}
+                    <div className="ml-[5px]">
+                        <span className={`font-bold ${nameSizeClass}`}>
+                            {player.name}
+                        </span>
                     </div>
-                    <span className={`${player.name.length < 18 ? "info-text" : "player-name-long"} draft-text-desktop`}>{player.team}</span>
-                    <span className={`${player.name.length < 18 ? "info-text" : (player.name.length < 22 ? "player-name-long" : "player-name-longer")} draft-text-position`}>{player.position}</span>
-                    <div className='draft-guide-player-size'>
+                    
+                    {/* Team (desktop) */}
+                    <span className={`${nameSizeClass} hidden md:inline`}>
+                        {player.team}
+                    </span>
+                    
+                    {/* Position */}
+                    <span className={`${nameSizeClass}`}>
+                        {player.position}
+                    </span>
+                    
+                    {/* Size Info */}
+                    <div className="hidden md:flex flex-col gap-[5px] ml-auto">
                         <span>Height: {player.height}</span>
                         <span>Weight: {player.weight}</span>
                     </div>
-                    <div className='draft-guide-side-stats'>
-                        {bottomDisplay && <span className='general-stat-text'>{perGameStats}</span>}
-                    </div>
+                    
+                    {/* Side Stats (desktop) */}
+                    {bottomDisplay && (
+                        <div className="ml-auto hidden md:block">
+                            <span className="text-[16px] font-bold">
+                                {perGameStats}
+                            </span>
+                        </div>
+                    )}
                 </div>
-                <div className={`draft-guide-box-separator ${isOpen ? 'box-width-open' : 'box-width-close'}`}/>
+                
+                {/* Separator */}
+                <div className={`h-[2px] bg-black transition-all duration-300 ${
+                    isOpen 
+                        ? "w-full md:w-[996px]" 
+                        : "w-full md:w-[526px]"
+                }`} />
+                
+                {/* Expanded Content */}
                 {bottomDisplay && (
                     <>
-                        <div className='draft-guide-mobile-stats'>
-                            <div className='draft-player-info-container'>
-                            <span className='general-stat-text'>{perGameMobileStats}</span>
+                        {/* Mobile Stats */}
+                        <div className="w-full md:hidden">
+                            <div className="p-[2%]">
+                                <span className="text-[16px] font-bold">
+                                    {perGameMobileStats}
+                                </span>
                             </div>
-                            <div className='draft-guide-box-separator box-width-open'/>
+                            <div className="h-[2px] w-full bg-black" />
                         </div>
-                        <div className='box-flex-display'>
-                            <>
-                                <div key="mobile-stats" className='draft-player-info-container draft-text-mobile'>
-                                    {percentageMobileStats}
-                                </div>
-                                <div key="desktop-stats" className='draft-player-info-container draft-text-desktop'>
-                                    {percentageStats}
-                                </div>
-                            </>
-                            <div className='draft-guide-mobile-stats draft-guide-box-separator box-width-open'/>
-                            <div className='pin-right draft-player-info-container'>
+                        
+                        {/* Percentage Stats */}
+                        <div className="flex flex-col md:flex-row w-full">
+                            <div className="p-[2%] md:hidden">
+                                {percentageMobileStats}
+                            </div>
+                            <div className="p-[2%] hidden md:block">
+                                {percentageStats}
+                            </div>
+                            <div className="h-[2px] w-full bg-black md:hidden" />
+                            
+                            {/* Advanced Stats */}
+                            <div className="p-[2%] ml-auto">
                                 {advancedStats}
                             </div>
                         </div>
-                        <div className='draft-guide-box-separator box-width-open'/>
-                        <div className='draft-player-info-container'>
-                            <span className='general-stat-text'>{player.description}</span>
+                        
+                        <div className="h-[2px] w-full bg-black" />
+                        
+                        {/* Description */}
+                        <div className="p-[2%]">
+                            <span className="text-[16px] font-bold">
+                                {player.description}
+                            </span>
                         </div>
                     </>
                 )}
+                
+                {/* Collapsed Stats */}
                 {!bottomDisplay && (
                     <>
-                        <div key="mobile-per-game" className='draft-player-info-container draft-text-mobile'>
+                        <div className="p-[2%] md:hidden">
                             {perGameMobileStats}
                         </div>
-                        <div key="desktop-per-game" className='draft-player-info-container draft-text-desktop'>
+                        <div className="p-[2%] hidden md:block">
                             {perGameStats}
                         </div>
                     </>
