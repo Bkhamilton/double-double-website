@@ -94,7 +94,7 @@ export default function EpisodeNode({ episode }) {
                     <div className="flex-1 flex items-center justify-center">
                         <div className="relative w-full aspect-square max-w-md rounded-lg overflow-hidden border-2 border-blue-400/30">
                             <Image
-                                src={'/logo.jpg'}
+                                src={'/logo.JPG'}
                                 alt="Double Double Logo"
                                 fill
                                 className="object-cover"

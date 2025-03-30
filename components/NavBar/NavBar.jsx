@@ -18,7 +18,7 @@ export default function NavBar() {
             <div className="container mx-auto px-4 py-2 flex justify-between items-center">
                 <div className="flex items-center">
                     <Link href="/">
-                        <Image className='flex items-center' src={'/logo.jpg'} alt="Double Double Logo" width={72} height={72} />
+                        <Image className='flex items-center' src={'/logo.JPG'} alt="Double Double Logo" width={72} height={72} />
                     </Link>
                 </div>
                 <div className="hidden md:flex space-x-4">

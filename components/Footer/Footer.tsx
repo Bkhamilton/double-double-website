@@ -29,7 +29,7 @@ export default function Footer() {
             </ul>
             <div className="flex flex-col items-center">
                 <Image 
-                    src={'/logo.jpg'} 
+                    src={'/logo.JPG'} 
                     alt="logo" 
                     className="h-[200px] w-auto sm:h-[150px] sm:ml-[35px]" 
                     width={200} 
