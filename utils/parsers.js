@@ -99,7 +99,7 @@ export function parseAdvancedOld(advanced) {
 export function parseAdvanced(advanced) {
   //str is in the format 12.0PER 100.5ORTG 98.5DRTG 24.5%USG
   if (advanced === "N/A") {
-    return [<span className='general-stat-text'>Advanced Stats are not available for this player</span>]
+    return [<span key="empty-box" className='general-stat-text'>Advanced Stats are not available for this player</span>]
   }
   const advStatArr = advanced.split(" ");
   const parsedAdvStats = [];

@@ -9,10 +9,10 @@ interface Player {
   weight: string;
   position: string;
   team: string;
-  description: { content: string };
-  stats: { content: string };
-  percentages: { content: string };
-  advanced: { content: string };
+  description: string;
+  stats: string;
+  percentages: string
+  advanced: string;
 }
 
 export default function DraftGuideList({ players }: { players: Player[] }) {

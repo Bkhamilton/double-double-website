@@ -71,7 +71,6 @@ span {
     height: 2px;
     background-color: black;
     position: relative;
-    right: 6px;
     transition: width 0.3s ease;
 }
 
