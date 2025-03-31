@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Footer() {
     return (
-        <div className="bg-gray-50 px-[12%] py-[3%] flex justify-between items-center md:px-[4%] sm:px-[2%] sm:py-[4%]">
+        <div className="bg-gray-50 px-[8%] py-[3%] flex justify-between items-center md:px-[4%] sm:px-[2%] sm:py-[4%]">
             <ul className="block list-none">
                 <li className="my-[10px] whitespace-nowrap sm:my-[5px] sm:py-[1%]">
                     <Link href="/" className="mr-[15px] text-gray-800 no-underline hover:text-blue-600 transition-colors duration-300">
