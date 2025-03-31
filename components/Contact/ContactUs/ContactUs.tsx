@@ -1,7 +1,6 @@
 "use client";
 import * as React from 'react';
 import { useState } from 'react';
-import axios from 'axios';
 import { 
   FaSpotify, 
   FaApple, 
@@ -38,6 +37,7 @@ export default function ContactUs() {
             setMessage("");
         } catch (error) {
             setAlert("Failed to send message. Please try again.");
+            throw error; // Rethrow the error for further handling if needed
         } finally {
             setIsSubmitting(false);
         }
