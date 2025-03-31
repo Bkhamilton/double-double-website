@@ -1,5 +1,4 @@
 import React from 'react';
-import DoubleDoubleTitle from '@/components/Helpers/DoubleDoubleTitle/DoubleDoubleTitle';
 import ContactUs from './ContactUs/ContactUs';
 
 const Contact = () => {
