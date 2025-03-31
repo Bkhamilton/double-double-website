@@ -1,12 +1,11 @@
 import React from 'react';
-import DoubleDoubleTitle from '@/components/Helpers/DoubleDoubleTitle/DoubleDoubleTitle';
+import Contact from '@/components/Contact/Contact';
 
 const ContactPage = () => {
     return (
-        <div>
-            <DoubleDoubleTitle/>
-            <h1>Contact Us</h1>
-        </div>
+        <>
+            <Contact />
+        </>
     );
 };
 
