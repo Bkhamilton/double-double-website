@@ -2,15 +2,18 @@ import * as React from 'react';
 
 export function parseStats(stats, gamesPlayed) {
     const statArr = stats.split(' ');
-    const perGameStats = [[<span className='general-stat-text'>{gamesPlayed}</span>, <span className='stat-label'>G</span>]];
+    const perGameStats = [[
+        <span key="games-played-value" className='general-stat-text'>{gamesPlayed}</span>, 
+        <span key="games-played-label" className='stat-label'>G</span>
+    ]];
     for (let i = 1; i < statArr.length; i++) {
-      const totalStat = parseFloat(statArr[i]);
-      const digits = totalStat.toString().length;
-      const label = statArr[i].substring(digits);
-      const perGameStat = (totalStat / gamesPlayed).toFixed(1);
-      const statValue = <span className='general-stat-text'>{perGameStat}</span>;
-      const statLabel = <span className='stat-label'>{label.toUpperCase()}</span>
-      perGameStats.push([statValue, statLabel]);
+        const totalStat = parseFloat(statArr[i]);
+        const digits = totalStat.toString().length;
+        const label = statArr[i].substring(digits);
+        const perGameStat = (totalStat / gamesPlayed).toFixed(1);
+        const statValue = <span key={`stat-value-${i}`} className='general-stat-text'>{perGameStat}</span>;
+        const statLabel = <span key={`stat-label-${i}`} className='stat-label'>{label.toUpperCase()}</span>;
+        perGameStats.push([statValue, statLabel]);
     }
 
     return perGameStats;
@@ -20,13 +23,13 @@ export function parseStatsMobile(stats, gamesPlayed) {
     const statArr = stats.split(' ');
     const perGameMobileStats = [];
     for (let i = 1; i < statArr.length - 2; i++) {
-      const totalStat = parseFloat(statArr[i]);
-      const digits = totalStat.toString().length;
-      const label = statArr[i].substring(digits);
-      const perGameStat = (totalStat / gamesPlayed).toFixed(1);
-      const statValue = <span className='general-stat-text'>{perGameStat}</span>;
-      const statLabel = <span className='stat-label'>{label.toUpperCase()}</span>
-      perGameMobileStats.push([statValue, statLabel]);
+        const totalStat = parseFloat(statArr[i]);
+        const digits = totalStat.toString().length;
+        const label = statArr[i].substring(digits);
+        const perGameStat = (totalStat / gamesPlayed).toFixed(1);
+        const statValue = <span key={`mobile-stat-value-${i}`} className='general-stat-text'>{perGameStat}</span>;
+        const statLabel = <span key={`mobile-stat-label-${i}`} className='stat-label'>{label.toUpperCase()}</span>;
+        perGameMobileStats.push([statValue, statLabel]);
     }
 
     return perGameMobileStats;
@@ -97,15 +100,26 @@ export function parseAdvancedOld(advanced) {
 
 //Use if using PER, ORTG, DRTG, and USG
 export function parseAdvanced(advanced) {
-  //str is in the format 12.0PER 100.5ORTG 98.5DRTG 24.5%USG
-  if (advanced === "N/A") {
-    return [<span key="empty-box" className='general-stat-text'>Advanced Stats are not available for this player</span>]
-  }
-  const advStatArr = advanced.split(" ");
-  const parsedAdvStats = [];
-  parsedAdvStats.push([<span className='general-stat-text'>{advStatArr[0].slice(0, -3)}</span>, <span className='stat-label-large stat-margin'>{advStatArr[0].slice(-3)}</span>]);
-  parsedAdvStats.push([<span className='general-stat-text'>{advStatArr[1].slice(0, -4)}</span>, <span className='stat-label-large stat-margin'>{advStatArr[1].slice(-4)}</span>]);
-  parsedAdvStats.push([<span className='general-stat-text'>{advStatArr[2].slice(0, -4)}</span>, <span className='stat-label-large stat-margin'>{advStatArr[2].slice(-4)}</span>]);
-  parsedAdvStats.push([<span className='general-stat-text'>{advStatArr[3].slice(0, -3)}</span>, <span className='stat-label-large stat-margin'>{advStatArr[3].slice(-3)}</span>]);
-  return parsedAdvStats;
+    if (advanced === "N/A") {
+        return [<span key="empty-box" className='general-stat-text'>Advanced Stats are not available for this player</span>];
+    }
+    const advStatArr = advanced.split(" ");
+    const parsedAdvStats = [];
+    parsedAdvStats.push([
+        <span key="adv-stat-0-value" className='general-stat-text'>{advStatArr[0].slice(0, -3)}</span>, 
+        <span key="adv-stat-0-label" className='stat-label-large stat-margin'>{advStatArr[0].slice(-3)}</span>
+    ]);
+    parsedAdvStats.push([
+        <span key="adv-stat-1-value" className='general-stat-text'>{advStatArr[1].slice(0, -4)}</span>, 
+        <span key="adv-stat-1-label" className='stat-label-large stat-margin'>{advStatArr[1].slice(-4)}</span>
+    ]);
+    parsedAdvStats.push([
+        <span key="adv-stat-2-value" className='general-stat-text'>{advStatArr[2].slice(0, -4)}</span>, 
+        <span key="adv-stat-2-label" className='stat-label-large stat-margin'>{advStatArr[2].slice(-4)}</span>
+    ]);
+    parsedAdvStats.push([
+        <span key="adv-stat-3-value" className='general-stat-text'>{advStatArr[3].slice(0, -3)}</span>, 
+        <span key="adv-stat-3-label" className='stat-label-large stat-margin'>{advStatArr[3].slice(-3)}</span>
+    ]);
+    return parsedAdvStats;
 }
