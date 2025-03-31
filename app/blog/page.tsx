@@ -1,12 +1,11 @@
 import React from 'react';
-import DoubleDoubleTitle from '@/components/Helpers/DoubleDoubleTitle/DoubleDoubleTitle';
+import Blog from '@/components/Blog/Blog'
 
 const BlogPage = () => {
     return (
-        <div>
-            <DoubleDoubleTitle/>
-            <h1>Blog</h1>
-        </div>
+        <>
+            <Blog />
+        </>
     );
 };
 
