@@ -27,7 +27,11 @@ export default async function DraftGuide () {
     
     return (
         <div>
-            <h1>Draft Guide</h1>
+            <h1 className="text-center text-4xl md:text-5xl font-bold text-white py-12
+                    [text-shadow:0_2px_4px_rgba(0,0,0,0.3)]"
+            >
+                Draft Guide
+            </h1>
             <DraftGuideList players={players}/>
         </div>
     );
