@@ -9,7 +9,7 @@ export default function Socials() {
                 href="https://open.spotify.com/show/6HKVei1HZ3XodZkO5KkEK3" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-[#1DB954] hover:text-[#1ed760] transition-colors duration-300 text-3xl md:text-4xl lg:text-5xl"
+                className="text-white hover:text-[#1ed760] transition-all duration-300 text-3xl md:text-4xl lg:text-5xl hover:scale-110 drop-shadow-lg"
                 aria-label="Spotify"
             >
                 <FaSpotify />
@@ -19,7 +19,7 @@ export default function Socials() {
                 href="https://podcasts.apple.com/us/podcast/the-chase-down/id1555765326?itsct=podcast_box&itscg=30200" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-[#A3AAAE] hover:text-[#FFFFFF] transition-colors duration-300 text-3xl md:text-4xl lg:text-5xl"
+                className="text-white hover:text-gray-300 transition-all duration-300 text-3xl md:text-4xl lg:text-5xl hover:scale-110 drop-shadow-lg"
                 aria-label="Apple Podcasts"
             >
                 <FaApple />
@@ -29,7 +29,7 @@ export default function Socials() {
                 href="https://www.tiktok.com/@doubledoublepod" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-[#000000] hover:text-[#FE2C55] transition-colors duration-300 text-3xl md:text-4xl lg:text-5xl"
+                className="text-white hover:text-[#FE2C55] transition-all duration-300 text-3xl md:text-4xl lg:text-5xl hover:scale-110 drop-shadow-lg"
                 aria-label="TikTok"
             >
                 <FaTiktok />
@@ -39,7 +39,7 @@ export default function Socials() {
                 href="https://www.instagram.com/thedoubledoublepod/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-[#E4405F] hover:text-[#F77737] transition-colors duration-300 text-3xl md:text-4xl lg:text-5xl"
+                className="text-white hover:text-[#E4405F] transition-all duration-300 text-3xl md:text-4xl lg:text-5xl hover:scale-110 drop-shadow-lg"
                 aria-label="Instagram"
             >
                 <FaInstagram />
@@ -49,7 +49,7 @@ export default function Socials() {
                 href="https://twitter.com/thedoubl2" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-[#1DA1F2] hover:text-[#1d9bf0] transition-colors duration-300 text-3xl md:text-4xl lg:text-5xl"
+                className="text-white hover:text-[#1DA1F2] transition-all duration-300 text-3xl md:text-4xl lg:text-5xl hover:scale-110 drop-shadow-lg"
                 aria-label="Twitter"
             >
                 <FaTwitter />
