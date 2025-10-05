@@ -45,9 +45,10 @@ function generateMockPlayers() {
         const threePct = (Math.random() * 0.15 + 0.30).toFixed(3); // 30-45%
         const ftPct = (Math.random() * 0.15 + 0.70).toFixed(3); // 70-85%
         
-        // Generate advanced stats
+        // Generate advanced stats (PER, ORTG, DRTG, USG)
         const per = (Math.random() * 10 + 15).toFixed(1); // 15-25
-        const ts = (Math.random() * 0.10 + 0.55).toFixed(3); // 55-65%
+        const ortg = (Math.random() * 20 + 100).toFixed(1); // 100-120
+        const drtg = (Math.random() * 20 + 95).toFixed(1); // 95-115
         const usg = (Math.random() * 10 + 20).toFixed(1); // 20-30%
         
         players.push({
@@ -60,7 +61,7 @@ function generateMockPlayers() {
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.',
             stats: `${gp} ${(pts * gp).toFixed(0)} ${(reb * gp).toFixed(0)} ${(ast * gp).toFixed(0)} ${(stl * gp).toFixed(0)} ${(blk * gp).toFixed(0)} ${(tov * gp).toFixed(0)}`,
             percentages: `${(pts * gp * 0.45).toFixed(0)} ${(pts * gp).toFixed(0)} ${(pts * gp * 0.35).toFixed(0)} ${(pts * gp).toFixed(0)} ${(pts * gp * 0.20).toFixed(0)} ${(pts * gp * 0.25).toFixed(0)}`,
-            advanced: `${per} ${ts} ${usg}`,
+            advanced: `${per}PER ${ortg}ORTG ${drtg}DRTG ${usg}%USG`,
             imageUrl: null // Placeholder for now
         });
     }
