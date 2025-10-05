@@ -1,0 +1,188 @@
+span {
+    color: black;
+}
+
+.top-fifty-player-container {
+    display: flex;
+    width: 100%;
+    padding: 0% 5%;
+    place-content: center;
+}
+
+.top-fifty-player-button {
+    align-items: center;
+    height: 100%;
+    font-family: 'Roboto';
+    background-color: #6CC5FE;
+    transition: width 0.3s ease;
+}
+
+.button-open {
+    width: 1000px;
+    border: 4px solid black;
+}
+
+.button-close {
+    width: 650px;
+    border: 2px solid black;
+}
+
+.top-fifty-player-main-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1% 0%;
+}
+
+.top-fifty-player-rank {
+    padding: 0px 5px;
+}
+
+.rank-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.top-fifty-player-name span {
+    font-weight: bold;
+}
+
+.top-fifty-player-name {
+    margin-left: 5px;
+}
+
+.info-text, .player-name {
+    font-size: 20px;
+}
+
+.player-name-long {
+    font-size: 18px;
+}
+
+.top-fifty-player-size {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.top-fifty-box-separator {
+    height: 2px;
+    background-color: black;
+    position: relative;
+    transition: width 0.3s ease;
+}
+
+.box-width-close {
+    width: 646px;
+}
+
+.box-width-open {
+    width: 996px;
+}
+
+.general-stat-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stat-label {
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+
+.stat-label-large {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.top-fifty-player-info-container {
+    padding: 2%;
+}
+
+.stat-margin {
+    margin-right: 7px;
+}
+
+.top-fifty-side-stats {
+    margin-left: auto;
+}
+
+@media screen and (min-width: 1010px) {
+    .top-fifty-mobile-stats {
+        display: none;
+    }
+
+    .box-flex-display {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .box-width-close, .box-width-open, .button-open, .button-close {
+        width: 90%;
+    }
+
+    .top-fifty-box-separator {
+        width: 79vw;
+    }
+
+    .stat-label {
+        font-size: 10px;
+    }
+
+    .top-fifty-side-stats {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 691px) {
+    .top-fifty-text-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .top-fifty-text-desktop {
+        display: none;
+    }
+
+    .box-width-close, .box-width-open, .button-open, .button-close {
+        width: 100%;
+    }
+
+    .top-fifty-player-container {
+        padding: 0%;
+    }
+
+    .top-fifty-box-separator {
+        width: 100vw;
+        right: 12px;
+    }
+
+    .top-fifty-player-size {
+        margin-left: auto;
+    }
+
+    .top-fifty-player-info-container {
+        padding: 2% 0%;
+    }
+
+    .stat-label {
+        margin-right: 5px;
+    }
+
+    .info-text, .player-name {
+        font-size: 18px;
+    }
+
+    .player-name-long {
+        font-size: 16px;
+    }
+
+    .player-name-longer {
+        font-size: 14px;
+    }
+}
