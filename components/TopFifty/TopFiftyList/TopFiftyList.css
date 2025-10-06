@@ -2,14 +2,19 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 10px;
     padding-bottom: 5%;
 }
 
 .top-fifty-players {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+}
+
+.top-ten-players,
+.eleven-to-twenty-five-players,
+.twenty-six-to-fifty-players {
+    margin-bottom: 30px;
 }
 
 .main-padding {
