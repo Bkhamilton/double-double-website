@@ -24,7 +24,7 @@ export default function NavBar() {
                 <div className="hidden md:flex space-x-8">
                     <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/">Home</Link>
                     <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/draftGuide">Draft Guide</Link>
-                    <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/topfifty">Top Fifty</Link>
+                    <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/topfifty">Top 50</Link>
                     <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/blog">Blog</Link>
                     <Link className='text-white font-semibold text-lg hover:text-blue-200 hover:scale-110 transition-all duration-300' href="/contact">Contact Us</Link>
                 </div>

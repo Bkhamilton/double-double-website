@@ -79,6 +79,11 @@ export default function TopFifty() {
             >
                 Top 50 NBA Players
             </h1>
+            <div className="text-center px-6 pb-8">
+                <p className="text-white/80 text-lg md:text-xl italic">
+                    This list represents the opinion of Ben Hamilton and JP Carey
+                </p>
+            </div>
             <TopFiftyList players={players}/>
         </div>
     );

@@ -55,6 +55,11 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li className="whitespace-nowrap">
+                                <Link href="/topfifty" className="text-white no-underline hover:text-blue-200 transition-colors duration-300">
+                                    <span className="font-roboto text-[18px] font-semibold sm:text-[16px]">Top 50</span>
+                                </Link>
+                            </li>
+                            <li className="whitespace-nowrap">
                                 <Link href="/blog" className="text-white no-underline hover:text-blue-200 transition-colors duration-300">
                                     <span className="font-roboto text-[18px] font-semibold sm:text-[16px]">Blog</span>
                                 </Link>
