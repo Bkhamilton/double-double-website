@@ -25,7 +25,7 @@ const MenuPopup: React.FC<MenuPopupProps> = ({ onClick, active }) => {
                     <Link href="/draftGuide" className="text-white font-semibold text-xl block py-3 hover:text-blue-200 hover:pl-2 transition-all duration-300" onClick={onClick}>Draft Guide</Link>
                 </li>
                 <li>
-                    <Link href="/topfifty" className="text-white font-semibold text-xl block py-3 hover:text-blue-200 hover:pl-2 transition-all duration-300" onClick={onClick}>Top Fifty</Link>
+                    <Link href="/topfifty" className="text-white font-semibold text-xl block py-3 hover:text-blue-200 hover:pl-2 transition-all duration-300" onClick={onClick}>Top 50</Link>
                 </li>
                 <li>
                     <Link href="/blog" className="text-white font-semibold text-xl block py-3 hover:text-blue-200 hover:pl-2 transition-all duration-300" onClick={onClick}>Blog</Link>
