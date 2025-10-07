@@ -10,7 +10,7 @@ import DoubleDoubleTitle from '@/components/Helpers/DoubleDoubleTitle/DoubleDoub
 export default function BlogDetail() {
     const params = useParams();
     const router = useRouter();
-    const postId = parseInt(params.id as string);
+    const postId = parseInt(params.id);
     
     const post = blogPosts.find(p => p.id === postId);
     const otherPosts = blogPosts.filter(p => p.id !== postId);
