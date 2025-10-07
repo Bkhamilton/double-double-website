@@ -78,7 +78,7 @@ export default function TopFiftyPlayer({ player, otherName }: { player: Player, 
                     
                     {/* Rank */}
                     <div className="px-[5px] flex flex-col gap-1">
-                        <span className="font-bold text-[24px] text-white [text-shadow:2px_2px_black]">
+                        <span className="font-bold text-[24px] !text-white [text-shadow:2px_2px_black]">
                             {player.rank}
                         </span>
                         {hasOtherRank && (
