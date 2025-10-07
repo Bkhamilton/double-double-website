@@ -14,9 +14,11 @@ interface Player {
     percentages: string;
     advanced: string;
     imageUrl: string | null;
+    jpRank?: number;
+    benRank?: number;
 }
 
-export default function TopFiftyList({ players }: { players: Player[] }) {
+export default function TopFiftyList({ players, otherName }: { players: Player[], otherName: string }) {
 
     if (!players || players.length === 0) {
         return <div className='top-fifty-outer-container'>No players available.</div>;
@@ -40,7 +42,7 @@ export default function TopFiftyList({ players }: { players: Player[] }) {
                 </div>
                 <div className='top-fifty-players'>
                     {topTenPlayers.map(player => (
-                        <TopFiftyPlayer key={player.rank} player={player} />
+                        <TopFiftyPlayer key={player.rank} player={player} otherName={otherName} />
                     ))}
                 </div>
             </div>
@@ -52,7 +54,7 @@ export default function TopFiftyList({ players }: { players: Player[] }) {
                 </div>
                 <div className='top-fifty-players'>
                     {elevenToTwentyFive.map(player => (
-                        <TopFiftyPlayer key={player.rank} player={player} />
+                        <TopFiftyPlayer key={player.rank} player={player} otherName={otherName} />
                     ))}
                 </div>
             </div>
@@ -64,7 +66,7 @@ export default function TopFiftyList({ players }: { players: Player[] }) {
                 </div>
                 <div className='top-fifty-players'>
                     {twentySixToFifty.map(player => (
-                        <TopFiftyPlayer key={player.rank} player={player} />
+                        <TopFiftyPlayer key={player.rank} player={player} otherName={otherName} />
                     ))}
                 </div>
             </div>

@@ -16,9 +16,11 @@ interface Player {
     percentages: string;
     advanced: string;
     imageUrl: string | null;
+    jpRank?: number;
+    benRank?: number;
 }
 
-export default function TopFiftyPlayer({ player }: { player: Player }) {
+export default function TopFiftyPlayer({ player, otherName }: { player: Player, otherName: string }) {
     function getGamesPlayed(stats: string) {
         const statArr = stats.split(' ');
         return parseInt(statArr[0]);
@@ -51,6 +53,10 @@ export default function TopFiftyPlayer({ player }: { player: Player }) {
             ? "text-[18px] md:text-[20px]" 
             : "text-[14px] md:text-[16px]";
 
+    // Get the other person's rank
+    const otherRank = player.jpRank || player.benRank;
+    const hasOtherRank = otherRank !== undefined;
+
     return (
         <div className="flex w-full md:px-[5%] justify-center sm:px-0">
             <button 
@@ -71,10 +77,15 @@ export default function TopFiftyPlayer({ player }: { player: Player }) {
                     </div>
                     
                     {/* Rank */}
-                    <div className="px-[5px]">
+                    <div className="px-[5px] flex flex-col gap-1">
                         <span className="font-bold text-[24px] text-white [text-shadow:2px_2px_black]">
                             {player.rank}
                         </span>
+                        {hasOtherRank && (
+                            <div className="bg-orange-500 px-2 py-0.5 rounded text-white text-[10px] font-bold text-center border border-black">
+                                {otherName}: {otherRank}
+                            </div>
+                        )}
                     </div>
                     
                     {/* Name and Team Info */}
