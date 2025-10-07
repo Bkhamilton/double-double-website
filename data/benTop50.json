@@ -25,7 +25,7 @@
     "percentages": "557 1238 433 1238 248 310",
     "advanced": "21.5PER 119.1ORTG 113.3DRTG 28.7%USG",
     "imageUrl": null,
-    "jpRank": 4
+    "jpRank": 2
   },
   {
     "rank": 3,
@@ -39,7 +39,7 @@
     "percentages": "790 1756 614 1756 351 439",
     "advanced": "18.5PER 119.1ORTG 105.0DRTG 28.2%USG",
     "imageUrl": null,
-    "jpRank": 3
+    "jpRank": 5
   },
   {
     "rank": 4,
@@ -53,7 +53,7 @@
     "percentages": "509 1130 396 1130 226 283",
     "advanced": "22.8PER 117.2ORTG 112.3DRTG 22.2%USG",
     "imageUrl": null,
-    "jpRank": 2
+    "jpRank": 3
   },
   {
     "rank": 5,
@@ -67,7 +67,7 @@
     "percentages": "620 1378 482 1378 276 345",
     "advanced": "25.9PER 110.8ORTG 103.6DRTG 24.1%USG",
     "imageUrl": null,
-    "jpRank": 7
+    "jpRank": 8
   },
   {
     "rank": 6,
@@ -95,7 +95,7 @@
     "percentages": "541 1202 421 1202 240 300",
     "advanced": "21.4PER 108.5ORTG 102.5DRTG 25.0%USG",
     "imageUrl": null,
-    "jpRank": 10
+    "jpRank": 7
   },
   {
     "rank": 8,
@@ -109,7 +109,7 @@
     "percentages": "845 1879 658 1879 376 470",
     "advanced": "18.3PER 117.8ORTG 102.5DRTG 25.2%USG",
     "imageUrl": null,
-    "jpRank": 21
+    "jpRank": 10
   },
   {
     "rank": 9,
@@ -123,7 +123,7 @@
     "percentages": "689 1530 536 1530 306 383",
     "advanced": "23.3PER 114.0ORTG 101.6DRTG 27.7%USG",
     "imageUrl": null,
-    "jpRank": 18
+    "jpRank": 9
   },
   {
     "height": "87\"",
@@ -136,7 +136,8 @@
     "advanced": "26.5PER 114.8ORTG 102.1DRTG 29.5%USG",
     "imageUrl": null,
     "rank": 10,
-    "name": "Victor Wembanyama"
+    "name": "Victor Wembanyama",
+    "jpRank": 4
   },
   {
     "rank": 11,
@@ -150,7 +151,7 @@
     "percentages": "535 1188 416 1188 238 297",
     "advanced": "22.0PER 111.2ORTG 113.9DRTG 27.3%USG",
     "imageUrl": null,
-    "jpRank": 9
+    "jpRank": 16
   },
   {
     "rank": 12,
@@ -164,7 +165,7 @@
     "percentages": "769 1709 598 1709 342 427",
     "advanced": "19.3PER 114.9ORTG 111.5DRTG 22.1%USG",
     "imageUrl": null,
-    "jpRank": 8
+    "jpRank": 11
   },
   {
     "rank": 13,
@@ -178,7 +179,7 @@
     "percentages": "677 1504 526 1504 301 376",
     "advanced": "19.1PER 105.6ORTG 113.9DRTG 23.5%USG",
     "imageUrl": null,
-    "jpRank": 15
+    "jpRank": 13
   },
   {
     "rank": 14,
@@ -192,7 +193,7 @@
     "percentages": "816 1813 635 1813 363 453",
     "advanced": "21.3PER 110.0ORTG 101.6DRTG 23.8%USG",
     "imageUrl": null,
-    "jpRank": 11
+    "jpRank": 15
   },
   {
     "rank": 15,
@@ -206,7 +207,7 @@
     "percentages": "700 1556 545 1556 311 389",
     "advanced": "25.6PER 118.5ORTG 104.7DRTG 23.7%USG",
     "imageUrl": null,
-    "jpRank": 39
+    "jpRank": 12
   },
   {
     "rank": 16,
@@ -220,7 +221,7 @@
     "percentages": "683 1517 531 1517 303 379",
     "advanced": "22.5PER 112.5ORTG 105.7DRTG 27.2%USG",
     "imageUrl": null,
-    "jpRank": 17
+    "jpRank": 20
   },
   {
     "rank": 17,
@@ -234,7 +235,7 @@
     "percentages": "759 1686 590 1686 337 422",
     "advanced": "23.0PER 116.1ORTG 103.4DRTG 27.8%USG",
     "imageUrl": null,
-    "jpRank": 35
+    "jpRank": 14
   },
   {
     "rank": 18,
@@ -248,7 +249,7 @@
     "percentages": "530 1177 412 1177 235 294",
     "advanced": "24.8PER 114.6ORTG 107.5DRTG 27.8%USG",
     "imageUrl": null,
-    "jpRank": 24
+    "jpRank": 19
   },
   {
     "rank": 19,
@@ -262,7 +263,7 @@
     "percentages": "675 1501 525 1501 300 375",
     "advanced": "21.2PER 112.0ORTG 107.5DRTG 28.5%USG",
     "imageUrl": null,
-    "jpRank": 5
+    "jpRank": 21
   },
   {
     "rank": 20,
@@ -276,7 +277,7 @@
     "percentages": "583 1295 453 1295 259 324",
     "advanced": "18.8PER 117.9ORTG 112.3DRTG 26.0%USG",
     "imageUrl": null,
-    "jpRank": 46
+    "jpRank": 23
   },
   {
     "rank": 21,
@@ -290,7 +291,7 @@
     "percentages": "548 1217 426 1217 243 304",
     "advanced": "25.7PER 114.5ORTG 112.9DRTG 22.6%USG",
     "imageUrl": null,
-    "jpRank": 14
+    "jpRank": 18
   },
   {
     "rank": 22,
@@ -304,7 +305,7 @@
     "percentages": "649 1441 504 1441 288 360",
     "advanced": "18.1PER 116.9ORTG 106.5DRTG 28.3%USG",
     "imageUrl": null,
-    "jpRank": 13
+    "jpRank": 25
   },
   {
     "rank": 23,
@@ -318,7 +319,7 @@
     "percentages": "604 1343 470 1343 269 336",
     "advanced": "20.4PER 112.7ORTG 106.7DRTG 27.0%USG",
     "imageUrl": null,
-    "jpRank": 38
+    "jpRank": 17
   },
   {
     "rank": 24,
@@ -331,8 +332,7 @@
     "stats": "68 1666 510 272 109 54 156",
     "percentages": "750 1666 583 1666 333 417",
     "advanced": "25.3PER 118.2ORTG 100.6DRTG 26.2%USG",
-    "imageUrl": null,
-    "jpRank": 29
+    "imageUrl": null
   },
   {
     "rank": 25,
@@ -346,7 +346,7 @@
     "percentages": "458 1017 356 1017 203 254",
     "advanced": "22.1PER 108.3ORTG 109.9DRTG 25.5%USG",
     "imageUrl": null,
-    "jpRank": 16
+    "jpRank": 28
   },
   {
     "rank": 26,
@@ -360,7 +360,7 @@
     "percentages": "483 1073 375 1073 215 268",
     "advanced": "18.4PER 106.3ORTG 106.7DRTG 22.2%USG",
     "imageUrl": null,
-    "jpRank": 22
+    "jpRank": 24
   },
   {
     "rank": 27,
@@ -374,7 +374,7 @@
     "percentages": "653 1452 508 1452 290 363",
     "advanced": "23.1PER 113.8ORTG 105.3DRTG 27.9%USG",
     "imageUrl": null,
-    "jpRank": 36
+    "jpRank": 27
   },
   {
     "rank": 28,
@@ -388,7 +388,7 @@
     "percentages": "556 1236 433 1236 247 309",
     "advanced": "21.8PER 116.9ORTG 110.3DRTG 25.2%USG",
     "imageUrl": null,
-    "jpRank": 28
+    "jpRank": 26
   },
   {
     "rank": 29,
@@ -402,7 +402,7 @@
     "percentages": "511 1136 398 1136 227 284",
     "advanced": "24.7PER 105.4ORTG 105.5DRTG 27.6%USG",
     "imageUrl": null,
-    "jpRank": 30
+    "jpRank": 29
   },
   {
     "height": "84\"",
@@ -415,7 +415,8 @@
     "advanced": "21.8PER 115.3ORTG 104.2DRTG 24.5%USG",
     "imageUrl": null,
     "rank": 30,
-    "name": "Chet Holmgren"
+    "name": "Chet Holmgren",
+    "jpRank": 30
   },
   {
     "rank": 31,
@@ -429,7 +430,7 @@
     "percentages": "783 1739 609 1739 348 435",
     "advanced": "18.9PER 113.1ORTG 103.4DRTG 25.5%USG",
     "imageUrl": null,
-    "jpRank": 20
+    "jpRank": 35
   },
   {
     "rank": 32,
@@ -443,7 +444,7 @@
     "percentages": "553 1229 430 1229 246 307",
     "advanced": "22.3PER 111.7ORTG 103.2DRTG 23.7%USG",
     "imageUrl": null,
-    "jpRank": 43
+    "jpRank": 34
   },
   {
     "rank": 33,
@@ -457,7 +458,7 @@
     "percentages": "483 1073 375 1073 215 268",
     "advanced": "18.4PER 106.3ORTG 106.7DRTG 22.2%USG",
     "imageUrl": null,
-    "jpRank": 22
+    "jpRank": 24
   },
   {
     "rank": 34,
@@ -470,8 +471,7 @@
     "stats": "66 1406 350 297 59 86 125",
     "percentages": "633 1406 492 1406 281 351",
     "advanced": "19.1PER 119.9ORTG 114.6DRTG 26.0%USG",
-    "imageUrl": null,
-    "jpRank": 48
+    "imageUrl": null
   },
   {
     "rank": 35,
@@ -485,7 +485,7 @@
     "percentages": "664 1476 516 1476 295 369",
     "advanced": "21.0PER 111.6ORTG 101.3DRTG 23.4%USG",
     "imageUrl": null,
-    "jpRank": 25
+    "jpRank": 31
   },
   {
     "height": "77\"",
@@ -498,7 +498,8 @@
     "advanced": "19.5PER 111.5ORTG 109.2DRTG 27.2%USG",
     "imageUrl": null,
     "rank": 36,
-    "name": "James Harden"
+    "name": "James Harden",
+    "jpRank": 38
   },
   {
     "height": "74\"",
@@ -511,7 +512,8 @@
     "advanced": "23.4PER 116.2ORTG 110.5DRTG 28.9%USG",
     "imageUrl": null,
     "rank": 37,
-    "name": "Kyrie Irving"
+    "name": "Kyrie Irving",
+    "jpRank": 22
   },
   {
     "rank": 38,
@@ -524,8 +526,7 @@
     "stats": "65 1034 494 377 78 46 195",
     "percentages": "465 1034 362 1034 207 258",
     "advanced": "24.1PER 105.0ORTG 107.8DRTG 25.1%USG",
-    "imageUrl": null,
-    "jpRank": 31
+    "imageUrl": null
   },
   {
     "height": "84\"",
@@ -538,7 +539,8 @@
     "advanced": "18.9PER 112.8ORTG 106.3DRTG 19.5%USG",
     "imageUrl": null,
     "rank": 39,
-    "name": "Ivica Zubac"
+    "name": "Ivica Zubac",
+    "jpRank": 37
   },
   {
     "rank": 40,
@@ -552,7 +554,7 @@
     "percentages": "573 1274 446 1274 255 319",
     "advanced": "19.4PER 114.0ORTG 108.0DRTG 27.4%USG",
     "imageUrl": null,
-    "jpRank": 41
+    "jpRank": 39
   },
   {
     "rank": 41,
@@ -580,7 +582,7 @@
     "percentages": "713 1584 554 1584 317 396",
     "advanced": "19.9PER 118.9ORTG 112.1DRTG 22.3%USG",
     "imageUrl": null,
-    "jpRank": 50
+    "jpRank": 36
   },
   {
     "height": "79\"",
@@ -593,7 +595,8 @@
     "advanced": "17.8PER 108.2ORTG 105.8DRTG 23.1%USG",
     "imageUrl": null,
     "rank": 43,
-    "name": "Amen Thompson"
+    "name": "Amen Thompson",
+    "jpRank": 45
   },
   {
     "height": "81\"",
@@ -606,7 +609,8 @@
     "advanced": "19.2PER 110.5ORTG 106.2DRTG 24.8%USG",
     "imageUrl": null,
     "rank": 44,
-    "name": "Cooper Flagg"
+    "name": "Cooper Flagg",
+    "jpRank": 40
   },
   {
     "rank": 45,
@@ -620,7 +624,7 @@
     "percentages": "441 979 343 979 196 245",
     "advanced": "20.1PER 111.1ORTG 112.7DRTG 28.8%USG",
     "imageUrl": null,
-    "jpRank": 40
+    "jpRank": 32
   },
   {
     "rank": 46,
@@ -634,7 +638,7 @@
     "percentages": "533 1184 414 1184 237 296",
     "advanced": "20.7PER 118.5ORTG 106.0DRTG 28.4%USG",
     "imageUrl": null,
-    "jpRank": 23
+    "jpRank": 49
   },
   {
     "rank": 47,
@@ -648,7 +652,7 @@
     "percentages": "552 1226 429 1226 245 307",
     "advanced": "20.0PER 115.8ORTG 108.1DRTG 23.6%USG",
     "imageUrl": null,
-    "jpRank": 49
+    "jpRank": 44
   },
   {
     "height": "80\"",
@@ -661,7 +665,8 @@
     "advanced": "18.5PER 113.5ORTG 107.2DRTG 20.8%USG",
     "imageUrl": null,
     "rank": 48,
-    "name": "Aaron Gordon"
+    "name": "Aaron Gordon",
+    "jpRank": 46
   },
   {
     "rank": 49,
@@ -674,8 +679,7 @@
     "stats": "69 1263 552 366 83 90 173",
     "percentages": "568 1263 442 1263 253 316",
     "advanced": "20.3PER 118.3ORTG 113.6DRTG 26.3%USG",
-    "imageUrl": null,
-    "jpRank": 12
+    "imageUrl": null
   },
   {
     "height": "78\"",
@@ -688,6 +692,7 @@
     "advanced": "20.8PER 115.2ORTG 108.9DRTG 26.4%USG",
     "imageUrl": null,
     "rank": 50,
-    "name": "Desmond Bane"
+    "name": "Desmond Bane",
+    "jpRank": 41
   }
 ]
