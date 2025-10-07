@@ -36,7 +36,7 @@ export default function BlogDetail() {
             <DoubleDoubleTitle />
             
             {/* Back Button */}
-            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
+            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
                 <button
                     onClick={() => router.push('/blog')}
                     className="flex items-center gap-2 text-white hover:text-blue-300 transition-colors duration-300 group mb-6"
@@ -47,7 +47,7 @@ export default function BlogDetail() {
             </div>
 
             {/* Main Content */}
-            <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
+            <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
                 <article className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden shadow-2xl">
                     {/* Featured Image */}
                     <div className="relative h-64 md:h-96 w-full">
