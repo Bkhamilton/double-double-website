@@ -1,11 +1,21 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { FaCalendarAlt, FaClock, FaTag } from 'react-icons/fa';
 
 export default function BlogPostCard({ post }) {
+    const router = useRouter();
+
+    const handleClick = () => {
+        router.push(`/blog/${post.id}`);
+    };
+
     return (
-        <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1">
+        <div 
+            onClick={handleClick}
+            className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-xl overflow-hidden shadow-xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+        >
             {/* Image */}
             <div className="relative h-48 w-full">
                 <Image
