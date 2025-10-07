@@ -50,7 +50,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li className="whitespace-nowrap">
-                                <Link href="/draft-guide" className="text-white no-underline hover:text-blue-200 transition-colors duration-300">
+                                <Link href="/draftGuide" className="text-white no-underline hover:text-blue-200 transition-colors duration-300">
                                     <span className="font-roboto text-[18px] font-semibold sm:text-[16px]">Draft Guide</span>
                                 </Link>
                             </li>
