@@ -1,12 +1,21 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { FaCalendarAlt, FaClock, FaTag } from 'react-icons/fa';
 
 export default function HighlightedBlogPost({ post }) {
+    const router = useRouter();
+
+    const handleClick = () => {
+        router.push(`/blog/${post.id}`);
+    };
+
     return (
         <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/20 transition-all duration-300">
+            <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-xl overflow-hidden shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 cursor-pointer"
+                onClick={handleClick}
+            >
                 <div className="flex flex-col md:flex-row">
                     {/* Image Section */}
                     <div className="md:w-1/2 relative h-64 md:h-auto">
