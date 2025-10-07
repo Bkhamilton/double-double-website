@@ -14,12 +14,17 @@ import {
 
 export default function ContactUs() {
     const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
     const [alert, setAlert] = useState("");
     const [isSubmitting, setIsSubmitting] = useState(false);
   
     const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setEmail(event.target.value);
+    };
+
+    const handleSubjectChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setSubject(event.target.value);
     };
   
     const handleMessageChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -31,13 +36,20 @@ export default function ContactUs() {
         setIsSubmitting(true);
         
         try {
-            // Add your email sending logic here
-            setAlert("Message sent successfully!");
-            setEmail("");
-            setMessage("");
-        } catch (error) {
-            setAlert("Failed to send message. Please try again.");
-            throw error; // Rethrow the error for further handling if needed
+            const recipientEmail = "thedoubledoublepod@gmail.com";
+            const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`From: ${email}\n\n${message}`)}`;
+            
+            window.location.href = mailtoLink;
+            
+            setAlert("Opening your email client...");
+            setTimeout(() => {
+                setEmail("");
+                setSubject("");
+                setMessage("");
+                setAlert("");
+            }, 2000);
+        } catch {
+            setAlert("Failed to open email client. Please try again.");
         } finally {
             setIsSubmitting(false);
         }
@@ -139,7 +151,23 @@ export default function ContactUs() {
                                 value={email}
                                 onChange={handleEmailChange}
                                 required
-                                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none"
+                                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none text-gray-900 placeholder:text-gray-500"
+                            />
+                        </div>
+                        
+                        <div className="mb-6">
+                            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                                Subject
+                            </label>
+                            <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                placeholder="What's this about?"
+                                value={subject}
+                                onChange={handleSubjectChange}
+                                required
+                                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none text-gray-900 placeholder:text-gray-500"
                             />
                         </div>
                         
@@ -155,7 +183,7 @@ export default function ContactUs() {
                                 value={message}
                                 onChange={handleMessageChange}
                                 required
-                                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none"
+                                className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none text-gray-900 placeholder:text-gray-500"
                             />
                         </div>
                         
