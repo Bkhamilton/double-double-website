@@ -25,7 +25,7 @@
     "percentages": "539 1197 419 1197 239 299",
     "advanced": "18.9PER 114.1ORTG 111.2DRTG 26.1%USG",
     "imageUrl": null,
-    "benRank": 3
+    "benRank": 4
   },
   {
     "rank": 3,
@@ -39,7 +39,7 @@
     "percentages": "584 1299 455 1299 260 325",
     "advanced": "21.8PER 108.7ORTG 113.4DRTG 26.6%USG",
     "imageUrl": null,
-    "benRank": 2
+    "benRank": 3
   },
   {
     "rank": 4,
@@ -53,7 +53,7 @@
     "percentages": "687 1526 534 1526 305 382",
     "advanced": "25.8PER 115.6ORTG 106.0DRTG 29.6%USG",
     "imageUrl": null,
-    "benRank": 5
+    "benRank": 2
   },
   {
     "rank": 5,
@@ -67,7 +67,7 @@
     "percentages": "583 1296 453 1296 259 324",
     "advanced": "20.2PER 117.7ORTG 102.4DRTG 27.3%USG",
     "imageUrl": null,
-    "benRank": 4
+    "benRank": 19
   },
   {
     "rank": 6,
@@ -95,7 +95,7 @@
     "percentages": "704 1564 547 1564 313 391",
     "advanced": "24.2PER 119.8ORTG 108.6DRTG 24.6%USG",
     "imageUrl": null,
-    "benRank": 9
+    "benRank": 5
   },
   {
     "rank": 8,
@@ -109,7 +109,7 @@
     "percentages": "530 1177 412 1177 235 294",
     "advanced": "19.3PER 113.2ORTG 105.3DRTG 23.9%USG",
     "imageUrl": null,
-    "benRank": 7
+    "benRank": 12
   },
   {
     "rank": 9,
@@ -123,7 +123,7 @@
     "percentages": "765 1701 595 1701 340 425",
     "advanced": "20.6PER 113.1ORTG 100.7DRTG 24.4%USG",
     "imageUrl": null,
-    "benRank": 8
+    "benRank": 11
   },
   {
     "rank": 10,
@@ -137,7 +137,7 @@
     "percentages": "632 1405 492 1405 281 351",
     "advanced": "25.3PER 106.9ORTG 107.3DRTG 26.4%USG",
     "imageUrl": null,
-    "benRank": 16
+    "benRank": 7
   },
   {
     "rank": 11,
@@ -151,7 +151,7 @@
     "percentages": "629 1398 489 1398 280 350",
     "advanced": "22.3PER 115.1ORTG 113.6DRTG 29.0%USG",
     "imageUrl": null,
-    "benRank": 10
+    "benRank": 14
   },
   {
     "rank": 12,
@@ -165,7 +165,7 @@
     "percentages": "690 1534 537 1534 307 384",
     "advanced": "18.7PER 110.1ORTG 102.5DRTG 25.1%USG",
     "imageUrl": null,
-    "benRank": 11
+    "benRank": 49
   },
   {
     "rank": 13,
@@ -179,7 +179,7 @@
     "percentages": "649 1441 504 1441 288 360",
     "advanced": "23.5PER 105.4ORTG 106.5DRTG 25.6%USG",
     "imageUrl": null,
-    "benRank": 13
+    "benRank": 22
   },
   {
     "rank": 14,
@@ -193,7 +193,7 @@
     "percentages": "496 1102 386 1102 220 275",
     "advanced": "25.8PER 111.6ORTG 111.8DRTG 23.5%USG",
     "imageUrl": null,
-    "benRank": 12
+    "benRank": 21
   },
   {
     "rank": 15,
@@ -207,7 +207,7 @@
     "percentages": "512 1138 398 1138 228 284",
     "advanced": "22.7PER 110.4ORTG 111.0DRTG 27.4%USG",
     "imageUrl": null,
-    "benRank": 15
+    "benRank": 13
   },
   {
     "rank": 16,
@@ -221,7 +221,7 @@
     "percentages": "414 921 322 921 184 230",
     "advanced": "22.4PER 109.1ORTG 110.6DRTG 22.6%USG",
     "imageUrl": null,
-    "benRank": 14
+    "benRank": 25
   },
   {
     "rank": 17,
@@ -235,7 +235,7 @@
     "percentages": "529 1176 412 1176 235 294",
     "advanced": "21.3PER 116.7ORTG 112.5DRTG 23.6%USG",
     "imageUrl": null,
-    "benRank": 17
+    "benRank": 16
   },
   {
     "rank": 18,
@@ -249,7 +249,7 @@
     "percentages": "668 1484 519 1484 297 371",
     "advanced": "21.3PER 113.3ORTG 113.0DRTG 24.5%USG",
     "imageUrl": null,
-    "benRank": 19
+    "benRank": 9
   },
   {
     "rank": 19,
@@ -262,8 +262,7 @@
     "stats": "72 1303 410 331 101 108 122",
     "percentages": "586 1303 456 1303 261 326",
     "advanced": "19.8PER 108.0ORTG 101.2DRTG 28.4%USG",
-    "imageUrl": null,
-    "benRank": 18
+    "imageUrl": null
   },
   {
     "rank": 20,
@@ -277,7 +276,7 @@
     "percentages": "522 1159 406 1159 232 290",
     "advanced": "19.6PER 119.3ORTG 108.0DRTG 22.8%USG",
     "imageUrl": null,
-    "benRank": 20
+    "benRank": 31
   },
   {
     "rank": 21,
@@ -291,7 +290,7 @@
     "percentages": "545 1210 424 1210 242 303",
     "advanced": "24.1PER 111.3ORTG 106.3DRTG 25.8%USG",
     "imageUrl": null,
-    "benRank": 23
+    "benRank": 8
   },
   {
     "rank": 22,
@@ -305,7 +304,7 @@
     "percentages": "578 1285 450 1285 257 321",
     "advanced": "21.0PER 116.0ORTG 106.2DRTG 22.9%USG",
     "imageUrl": null,
-    "benRank": 21
+    "benRank": 33
   },
   {
     "rank": 23,
@@ -319,7 +318,7 @@
     "percentages": "540 1201 420 1201 240 300",
     "advanced": "20.8PER 109.8ORTG 112.7DRTG 28.4%USG",
     "imageUrl": null,
-    "benRank": 22
+    "benRank": 46
   },
   {
     "rank": 24,
@@ -333,7 +332,7 @@
     "percentages": "634 1409 493 1409 282 352",
     "advanced": "25.8PER 106.8ORTG 101.1DRTG 22.0%USG",
     "imageUrl": null,
-    "benRank": 24
+    "benRank": 18
   },
   {
     "rank": 25,
@@ -347,7 +346,7 @@
     "percentages": "563 1251 438 1251 250 313",
     "advanced": "25.1PER 119.6ORTG 107.0DRTG 29.4%USG",
     "imageUrl": null,
-    "benRank": 26
+    "benRank": 35
   },
   {
     "rank": 26,
@@ -360,8 +359,7 @@
     "stats": "71 1534 426 391 121 43 149",
     "percentages": "690 1534 537 1534 307 383",
     "advanced": "18.5PER 112.9ORTG 104.7DRTG 29.3%USG",
-    "imageUrl": null,
-    "benRank": 25
+    "imageUrl": null
   },
   {
     "rank": 27,
@@ -374,8 +372,7 @@
     "stats": "74 1606 629 340 81 118 163",
     "percentages": "723 1606 562 1606 321 401",
     "advanced": "25.6PER 117.5ORTG 103.6DRTG 26.1%USG",
-    "imageUrl": null,
-    "benRank": 27
+    "imageUrl": null
   },
   {
     "rank": 28,
@@ -389,7 +386,7 @@
     "percentages": "555 1234 432 1234 247 308",
     "advanced": "23.5PER 116.7ORTG 108.0DRTG 27.8%USG",
     "imageUrl": null,
-    "benRank": 29
+    "benRank": 28
   },
   {
     "rank": 29,
@@ -403,7 +400,7 @@
     "percentages": "670 1490 521 1490 298 372",
     "advanced": "25.1PER 106.1ORTG 100.8DRTG 22.1%USG",
     "imageUrl": null,
-    "benRank": 28
+    "benRank": 24
   },
   {
     "rank": 30,
@@ -417,7 +414,7 @@
     "percentages": "780 1733 606 1733 347 433",
     "advanced": "22.7PER 110.6ORTG 107.9DRTG 26.0%USG",
     "imageUrl": null,
-    "benRank": 30
+    "benRank": 29
   },
   {
     "rank": 31,
@@ -431,7 +428,7 @@
     "percentages": "523 1162 407 1162 232 290",
     "advanced": "22.4PER 112.4ORTG 109.6DRTG 26.2%USG",
     "imageUrl": null,
-    "benRank": 32
+    "benRank": 38
   },
   {
     "rank": 32,
@@ -444,8 +441,7 @@
     "stats": "67 1508 429 375 80 47 154",
     "percentages": "678 1508 528 1508 302 377",
     "advanced": "18.9PER 117.6ORTG 111.3DRTG 26.3%USG",
-    "imageUrl": null,
-    "benRank": 31
+    "imageUrl": null
   },
   {
     "rank": 33,
@@ -459,7 +455,7 @@
     "percentages": "436 970 339 970 194 242",
     "advanced": "19.4PER 114.7ORTG 106.4DRTG 28.2%USG",
     "imageUrl": null,
-    "benRank": 33
+    "benRank": 41
   },
   {
     "rank": 34,
@@ -472,8 +468,7 @@
     "stats": "73 1781 555 336 117 95 124",
     "percentages": "802 1781 623 1781 356 445",
     "advanced": "24.6PER 107.5ORTG 105.7DRTG 24.2%USG",
-    "imageUrl": null,
-    "benRank": 34
+    "imageUrl": null
   },
   {
     "rank": 35,
@@ -487,7 +482,7 @@
     "percentages": "491 1092 382 1092 218 273",
     "advanced": "24.7PER 116.0ORTG 113.0DRTG 26.6%USG",
     "imageUrl": null,
-    "benRank": 36
+    "benRank": 17
   },
   {
     "rank": 36,
@@ -501,7 +496,7 @@
     "percentages": "537 1193 418 1193 239 298",
     "advanced": "20.1PER 111.4ORTG 104.4DRTG 25.2%USG",
     "imageUrl": null,
-    "benRank": 35
+    "benRank": 27
   },
   {
     "rank": 37,
@@ -514,8 +509,7 @@
     "stats": "63 1191 265 334 88 69 183",
     "percentages": "536 1191 417 1191 238 298",
     "advanced": "18.5PER 117.2ORTG 111.7DRTG 28.9%USG",
-    "imageUrl": null,
-    "benRank": 37
+    "imageUrl": null
   },
   {
     "rank": 38,
@@ -529,7 +523,7 @@
     "percentages": "783 1740 609 1740 348 435",
     "advanced": "20.8PER 105.8ORTG 114.1DRTG 25.7%USG",
     "imageUrl": null,
-    "benRank": 40
+    "benRank": 23
   },
   {
     "rank": 39,
@@ -543,7 +537,7 @@
     "percentages": "633 1408 493 1408 282 352",
     "advanced": "18.2PER 115.9ORTG 109.1DRTG 28.8%USG",
     "imageUrl": null,
-    "benRank": 38
+    "benRank": 15
   },
   {
     "rank": 40,
@@ -557,7 +551,7 @@
     "percentages": "621 1380 483 1380 276 345",
     "advanced": "23.2PER 112.4ORTG 103.6DRTG 26.1%USG",
     "imageUrl": null,
-    "benRank": 39
+    "benRank": 45
   },
   {
     "rank": 41,
@@ -571,7 +565,7 @@
     "percentages": "624 1386 485 1386 277 347",
     "advanced": "23.0PER 105.3ORTG 114.0DRTG 27.0%USG",
     "imageUrl": null,
-    "benRank": 41
+    "benRank": 40
   },
   {
     "rank": 42,
@@ -584,8 +578,7 @@
     "stats": "71 1754 405 220 99 36 163",
     "percentages": "789 1754 614 1754 351 438",
     "advanced": "22.3PER 108.2ORTG 106.0DRTG 26.9%USG",
-    "imageUrl": null,
-    "benRank": 42
+    "imageUrl": null
   },
   {
     "rank": 43,
@@ -599,7 +592,7 @@
     "percentages": "743 1651 578 1651 330 413",
     "advanced": "19.9PER 111.9ORTG 101.7DRTG 26.0%USG",
     "imageUrl": null,
-    "benRank": 44
+    "benRank": 32
   },
   {
     "rank": 44,
@@ -612,8 +605,7 @@
     "stats": "71 1704 447 298 71 64 192",
     "percentages": "767 1704 596 1704 341 426",
     "advanced": "24.4PER 111.7ORTG 112.8DRTG 27.7%USG",
-    "imageUrl": null,
-    "benRank": 43
+    "imageUrl": null
   },
   {
     "rank": 45,
@@ -626,8 +618,7 @@
     "stats": "66 1313 515 409 79 99 185",
     "percentages": "591 1313 460 1313 263 328",
     "advanced": "24.4PER 117.2ORTG 100.4DRTG 27.2%USG",
-    "imageUrl": null,
-    "benRank": 45
+    "imageUrl": null
   },
   {
     "rank": 46,
@@ -641,7 +632,7 @@
     "percentages": "612 1361 476 1361 272 340",
     "advanced": "24.5PER 112.9ORTG 107.3DRTG 30.0%USG",
     "imageUrl": null,
-    "benRank": 47
+    "benRank": 20
   },
   {
     "rank": 47,
@@ -654,8 +645,7 @@
     "stats": "66 1360 264 416 92 59 106",
     "percentages": "612 1360 476 1360 272 340",
     "advanced": "20.5PER 118.8ORTG 109.8DRTG 27.9%USG",
-    "imageUrl": null,
-    "benRank": 46
+    "imageUrl": null
   },
   {
     "rank": 48,
@@ -669,7 +659,7 @@
     "percentages": "593 1318 461 1318 264 329",
     "advanced": "20.8PER 116.7ORTG 104.7DRTG 25.7%USG",
     "imageUrl": null,
-    "benRank": 48
+    "benRank": 34
   },
   {
     "rank": 49,
@@ -683,7 +673,7 @@
     "percentages": "721 1602 561 1602 320 400",
     "advanced": "25.4PER 114.8ORTG 109.2DRTG 28.1%USG",
     "imageUrl": null,
-    "benRank": 49
+    "benRank": 47
   },
   {
     "rank": 50,
@@ -697,6 +687,6 @@
     "percentages": "647 1438 503 1438 288 360",
     "advanced": "19.7PER 108.7ORTG 113.3DRTG 26.3%USG",
     "imageUrl": null,
-    "benRank": 50
+    "benRank": 42
   }
 ]
